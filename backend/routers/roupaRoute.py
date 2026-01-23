@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 from fastapi import APIRouter, Depends
-=======
-rom fastapi import APIRouter, Depends
->>>>>>> 7a2708c (iniciado criação das rotas)
 from sqlalchemy.orm import Session
 
 from backend.banco import get_db
